@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    page-break-after: 0;
+}
+
+html{
+    font-size: 10px;
+    background-color: #CCC;
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Form settings */
+form{
+    margin: 0 auto;
+    width: 400px;
+
+    padding: 1em;
+    border: 1 solid #CCC;
+}
+
+form li+li{
+    margin-top: 1em;
+}
+
+label{
+    /* uniform and side allignment */
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+}
+
+.button{
+    padding-left: 90%;
+    /* this needs to be the same size as the label element */
+}
